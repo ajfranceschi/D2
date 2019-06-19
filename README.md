@@ -1,3 +1,3 @@
-# AJ Assist #
+# D2 Assist #
 
-## Repo for AJ.
+## Repo for D2.
