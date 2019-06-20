@@ -2,63 +2,95 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Portfolio | Antonio</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-white pt-0 pb-0 sticky-top">
+        <div class="container d-flex">
+            <a href="./index.html" class="navbar-brand">
+                <h1>Antonio Franceschi</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 col-12 justify-content-end text-center">
+                    <li class="nav-item active">
+                        <a href="./index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="container bg-white mt-5 portfolio rounded">
+        <h1>Portfolio</h1>
+        <div class="row mt-3 text-center">
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess" class="img-fluid rounded">
+
+                <h3>Word Guess</h3>
+
+            </div>
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" class="img-fluid rounded">
+
+                <h3>RPG Game</h3>
+            </div>
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" class="img-fluid rounded">
+
+                <h3>Trivia Game</h3>
+            </div>
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" class="img-fluid rounded">
+
+                <h3>Rutgers Info Widget</h3>
+            </div>
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" class="img-fluid rounded">
+
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
     </div>
-  </footer>
+
+    <div id="main-container" class="container">
+
+        <section class="main-section">
+
+
+
+
+        </section>
+    </div>
+    </div>
+
+    <footer class="footer pt-4 fixed-bottom">
+        <div class="container-fluid text-center">
+            <p><small>Copyright ©</small></p>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
